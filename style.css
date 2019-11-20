@@ -175,9 +175,9 @@
 
 @media (max-width: 1000px) {
     .images {
-      grid-template-rows: repeat(3, 1fr);
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: 
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
     "img1 img2"
     "img3 img4"
     "img5 img6"
@@ -187,6 +187,8 @@
 
 @media (max-width: 500px) {
     .images {
+        height: auto;
+        width: 150px;
         grid-template-rows: repeat(6, 1fr);
         grid-template-columns: repeat(1, 1fr);
         grid-template-areas: 
